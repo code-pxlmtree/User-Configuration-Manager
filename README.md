@@ -22,7 +22,7 @@ This project was built as part of the **Python Certification** curriculum on fre
 Initial settings:
 
 ```python
-settings = {
+test_settings = {
     "theme": "dark",
     "language": "isiXhosa",
     "notifications": "enabled"
@@ -32,10 +32,10 @@ settings = {
 Example operations:
 
 ```python
-add_setting(settings, ("font_size", "large"))
-update_setting(settings, ("theme", "light"))
-delete_setting(settings, "language")
-view_settings(settings)
+add_setting(dictionary, ("font_size", "large"))
+update_setting(dictionary, ("theme", "light"))
+delete_setting(dictionary, "language")
+view_settings(dictionary)
 ```
 
 ## Learning Objectives
